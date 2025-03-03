@@ -240,21 +240,21 @@ img {
 @media (min-width: 1200px) {
   .top-picture {
     padding-top: 66.3333%;
-    background: url(../img/mv.png) top right/70% no-repeat;
+    background: url(./mv.png) top right/70% no-repeat;
     position: relative;
   }
 }
 @media (min-width:768px) and (max-width: 1199px) {
   .top-picture {
     padding-top: 66.3333%;
-    background: url(../img/mv.png) top right/70% no-repeat;
+    background: url(./mv.png) top right/70% no-repeat;
     position: relative;
   }
 }
 @media screen and (max-width:767px) {
   .top-picture {
     padding-top: 200.7009%;
-    background: url(../img/mv-sp.png) no-repeat center center/contain;
+    background: url(./mv-sp.png) no-repeat center center/contain;
   }
 }
 .top-picture::after {
