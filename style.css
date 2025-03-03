@@ -235,19 +235,8 @@ img {
 }
 
 .top-picture {
-  /*&::after {
-      content: "";
-      width: 0;
-      height: 0;
-      border-style: solid;
-      border-width: 113px 72px 0 72px;
-      border-color: #333 transparent transparent transparent;
-      position: absolute;
-      bottom: -70px;
-      left: 50%;
-      transform: translateX(-50%);
-  }*/
 }
+
 @media (min-width: 1200px) {
   .top-picture {
     padding-top: 66.3333%;
@@ -335,14 +324,8 @@ img {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  /*@include mq('sp') {
-      position: absolute;
-      right: -50%;
-      top: -50%;
-      transform: translate(0,0);
-      border-radius: 0 0 0 100%;
-  }*/
 }
+
 @media screen and (max-width:767px) {
   .top-title-bg-pc {
     display: none;
@@ -361,11 +344,13 @@ img {
   border-radius: 0 0 0 100%;
   z-index: 100;
 }
+
 @media (min-width:768px) and (max-width: 1199px) {
   .top-title-bg-sp {
     display: none !important;
   }
 }
+
 @media (min-width: 1200px) {
   .top-title-bg-sp {
     display: none !important;
@@ -397,11 +382,13 @@ img {
   justify-content: center;
   max-width: 1000px;
 }
+
 @media (min-width:768px) and (max-width: 1199px) {
   .about-wrapper {
     padding: 0 40px;
   }
 }
+
 @media screen and (max-width:767px) {
   .about-wrapper {
     display: block;
@@ -413,6 +400,7 @@ img {
   flex: 0 0 50%;
   text-align: right;
 }
+
 @media screen and (max-width:767px) {
   .about-left-picture {
     width: 100%;
@@ -428,6 +416,7 @@ img {
   flex: 0 1 100%;
   margin-left: 80px;
 }
+
 @media screen and (max-width:767px) {
   .about-right {
     margin-top: 16px;
@@ -459,6 +448,7 @@ img {
   color: #333;
   transition: opacity 0.3s ease;
 }
+
 .fa-solid:hover {
   opacity: 0.7;
 }
@@ -472,11 +462,13 @@ img {
   margin-top: 60px;
   flex-wrap: wrap;
 }
+
 @media (min-width:768px) and (max-width: 1199px) {
   .service-wrapper {
     padding: 0 40px;
   }
 }
+
 @media screen and (max-width:767px) {
   .service-wrapper {
     padding: 0 40px;
@@ -487,6 +479,7 @@ img {
 .service-item {
   border: 1px solid #333;
 }
+
 @media (min-width: 1200px) {
   .service-item {
     width: calc(25% - 15px);
@@ -495,6 +488,7 @@ img {
     margin-left: 20px;
   }
 }
+
 @media (min-width:768px) and (max-width: 1199px) {
   .service-item {
     width: calc(50% - 13.3333333333px);
@@ -506,6 +500,7 @@ img {
     margin-top: 20px;
   }
 }
+
 @media screen and (max-width:767px) {
   .service-item {
     width: 100%;
@@ -536,16 +531,19 @@ img {
   font-weight: bold; /* ついでに太字にしたい場合 */
   /* アニメーション発火時 */
 }
+
 @media (min-width:768px) and (max-width: 1199px) {
   .js-marker {
     transition: all 1s ease-in-out; /* マーカーを引く速度を調整 */
   }
 }
+
 @media screen and (max-width:767px) {
   .js-marker {
     transition: all 1s ease-in-out; /* マーカーを引く速度を調整 */
   }
 }
+
 .js-marker.inview {
   background-size: 100% 30%; /* '30%'の部分は上で設定した太さに合わせる */
 }
@@ -646,6 +644,7 @@ img {
     opacity: 1;
   }
 }
+
 @media (min-width:768px) and (max-width: 1199px) {
   .work-item {
     width: calc(50% - 10px);
@@ -692,6 +691,7 @@ img {
   height: 60px;
   margin-top: 0;
 }
+
 @media (min-width:768px) and (max-width: 1199px) {
   .swiper-button-next,
 .swiper-button-prev {
@@ -705,9 +705,11 @@ img {
   right: -40px;
   top: 49%;
 }
+
 .swiper-button-next::after {
   content: "";
 }
+
 .swiper-button-next:hover {
   right: -48px;
 }
@@ -718,9 +720,11 @@ img {
   left: -40px;
   top: 49%;
 }
+
 .swiper-button-prev::after {
   content: "";
 }
+
 .swiper-button-prev:hover {
   left: -48px;
 }
@@ -801,12 +805,14 @@ img {
   padding: 20px;
   width: 70%;
 }
+
 @media screen and (max-width:767px) {
   .modal-img {
     padding: 10px;
     width: 100%;
   }
 }
+
 .modal-img img {
   width: 100%;
 }
@@ -815,6 +821,7 @@ img {
   margin-left: 30px;
   width: 30%;
 }
+
 @media screen and (max-width:767px) {
   .modal-item-body {
     margin-top: 8px;
@@ -834,6 +841,7 @@ img {
   line-height: 25px;
   font-size: 14px;
 }
+
 @media screen and (max-width:767px) {
   .modal-text {
     margin-top: 8px;
@@ -851,26 +859,31 @@ img {
     right: 35px;
   }
 }
+
 @media screen and (max-width:767px) {
   .modaal-close {
     right: 35px;
   }
 }
+
 @media (min-width:768px) and (max-width: 1199px) {
   .modaal-close::before {
     background: #b93d0c;
   }
 }
+
 @media screen and (max-width:767px) {
   .modaal-close::before {
     background: #b93d0c;
   }
 }
+
 @media (min-width:768px) and (max-width: 1199px) {
   .modaal-close::after {
     background: #b93d0c;
   }
 }
+
 @media screen and (max-width:767px) {
   .modaal-close::after {
     background: #b93d0c;
@@ -882,6 +895,7 @@ img {
     border: 1px solid #333;
   }
 }
+
 @media screen and (max-width:767px) {
   .modaal-wrapper .modaal-close {
     border: 1px solid #333;
@@ -891,6 +905,7 @@ img {
 .contact {
   padding-bottom: 40px;
 }
+
 .contact input[type=text],
 .contact input[type=email],
 .contact textarea {
@@ -899,14 +914,17 @@ img {
   border: 1px solid #333;
   padding: 0.4em 0.4em;
 }
+
 .contact input[type=text],
 .contact input[type=email] {
   height: 22px;
 }
+
 .contact textarea {
   height: 150px;
   margin-top: 5px;
 }
+
 @media screen and (max-width:767px) {
   .contact textarea {
     font-weight: normal;
@@ -918,6 +936,7 @@ img {
     padding: 0 40px;
   }
 }
+
 @media screen and (max-width:767px) {
   .contact-inner {
     padding: 0 40px;
@@ -943,9 +962,11 @@ img {
 .contact-item {
   display: flex;
 }
+
 .contact-item + .contact-item {
   margin-top: 8px;
 }
+
 @media screen and (max-width:767px) {
   .contact-item {
     display: block;
@@ -955,6 +976,7 @@ img {
 .contact-list {
   margin-top: 50px;
 }
+
 @media screen and (max-width:767px) {
   .contact-list {
     margin-top: 25px;
@@ -973,6 +995,7 @@ img {
 .contact-item-input {
   width: calc(100% - 200px);
 }
+
 @media screen and (max-width:767px) {
   .contact-item-input {
     width: 100%;
@@ -992,6 +1015,7 @@ img {
   cursor: pointer;
   background: transparent;
 }
+
 .contact-footer-btn.-active {
   color: #fff;
   background: #072145;
@@ -1002,6 +1026,7 @@ img {
   margin-top: 60px;
   display: none;
 }
+
 .contact-massage.-error {
   color: #f00;
 }
@@ -1021,14 +1046,17 @@ img {
   transition: bottom 0.3s 0s ease;
   z-index: 288;
 }
+
 .to-top-link img {
   width: 60px;
 }
+
 @media screen and (max-width:767px) {
   .to-top-link img {
     width: 50px;
   }
 }
+
 @media (min-width: 1200px) {
   .to-top-link:hover {
     bottom: 30px;
